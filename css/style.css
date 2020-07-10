@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding:0;
+  /*   border: 3px solid rgb(240,240,240); */
+  }
+  
+  header, footer, section{
+    padding: 5%;
+  }
+  
+  body{
+    font-family: 'Baloo Thambi 2'; 
+        background-color:#fafafa;
+        font-family: Courier Prime;
+        font-size: 100%;
+        font-weight: normal;
+        /* Same as above */
+        line-height: 1.6rem;
+        margin:0;
+        
+    }
+  
+  .copyright{
+    text-align: center;
+  }
+  header{
+    text-align: left;
+  }
+  
+  .myname{
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Baloo Thambi 2';
+    font-weight: 500;
+    letter-spacing: 8px;
+    color: orangered;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+
+  .col-6{
+      color: black;
+      text-align: center;
+
+  }
+  .col-5{
+      text-align: right;
+  }
+  
+  h2{
+    font-weight: 300;
+    max-width: 30rem;
+    font-size: 2rem;
+    text-align: center;
+    border: 3px dotted white;
+    padding: 20px;
+    margin:3%;
+    color: rgb(245, 13, 13);
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    
+  }
+  .banner-image{
+    background-image: url("../images/mainimage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    text-align: center;
+  }
+
+  .bigsection{
+      background-color: rgb(134, 130, 134);
+      padding: 3rem;
+      margin: 10%;
+      margin-top: 5%;
+  }
+  .aboutme{ 
+      font-family: inherit;
+      font-weight: 800;
+      margin-bottom: 2rem;
+      letter-spacing: 6px;
+      color: orangered;
+      font-size: 3rem;
+      text-align: center;
+
+  }
+  
+  h3{
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 1%;
+    
+  }
+  
+  .padded{
+    padding: 2rem;
+  }
+
+  .block{
+    float: inline-start;
+    width: 50%;
+    border: 3px solid red;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.blockk{
+    float: center;
+    width: 50%;
+    border: 3px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    float: right;
+    width: 40%;
+    background-color: transparent ;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    box-sizing: border-box;
+    border: 3px solid red;
+    text-align: justify;
+}    
+
+  .linktoprojects{
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-weight: 700;
+      text-decoration-style: double;
+      margin-top: 1%;
+      padding-top: 2rem;
+  }
+  
+  footer{
+    height: 100%;
+    margin-top: 5%;
+    margin: 10%;
+  }
+  #education{
+      text-decoration-style: wavy;
+  }
+ 
+  .footerbg{
+      background-image: url("../images/footerbgg.jpg");
+      background-size: contain;
+      background-position: cover;
+      margin-bottom: 5%;
+      margin-right: 10%;
+      margin-left: 10%;
+      margin-top: 5%;
+
+    }
+  
+  a{
+    color: inherit;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    padding: 1rem;
+    display: inline-block;
+    padding-right: 0.5rem; 
+    text-align: right;
+  }
+  .socials{
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 1rem;
+    padding-right: 0.5rem; 
+  }
+  .footerh3{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+    padding-right: 0.5rem;
+  }
+    a:hover{
+    color: yellow;
+  }
+
+  @media screen and (max-width: 200px){
+    body{
+      font-size: 1rem;
+  }
+}
